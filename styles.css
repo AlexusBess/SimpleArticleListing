@@ -27,7 +27,7 @@ body {
 header {
     text-align: center;
     padding: 42px 0;
-    font-size: 1rem;
+    font-size: 1.1em;
     font-weight: 600;
 }
 
@@ -52,7 +52,8 @@ section img {
     height: 160px;
     width: 160px;
     border-radius: 10px;
-    margin-left: 50px
+    margin-left: 50px;
+    margin-bottom: 25px;
 }
 
 div {
@@ -74,6 +75,7 @@ p {
 @media (min-width: 1280px) {
     h1 {
         margin: 0 350px;
+        font-size: 1rem;
     }
 
     section {
@@ -87,7 +89,8 @@ p {
     }
 
     section img {
-        margin-left: 0px;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
 }
