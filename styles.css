@@ -52,8 +52,6 @@ section {
 }
 
 section img {
-    height: 160px;
-    width: 160px;
     border-radius: 10px;
     margin-left: 50px;
     margin-bottom: 25px;
@@ -96,5 +94,6 @@ p {
     }
 
 }
+
 
 
