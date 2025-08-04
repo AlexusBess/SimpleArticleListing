@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-color: #F9FAFC;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -31,21 +31,17 @@ header {
     font-weight: 600;
 }
 
-h1 {
-    margin: 0 350px;
-}
-
 header img {
     margin-top: 42px;
 }
 
 main {
-    width: 736px;
+    width: 100vw;
 }
 
 section {
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
 .section1, .section2 {
@@ -56,6 +52,7 @@ section img {
     height: 160px;
     width: 160px;
     border-radius: 10px;
+    margin-left: 50px
 }
 
 div {
@@ -72,4 +69,25 @@ p {
     color: #4D5562;
     font-size: 0.875rem;
     font-weight: 500;
+}
+
+@media (min-width: 1280px) {
+    h1 {
+        margin: 0 350px;
+    }
+
+    section {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    main {
+        width: 736px;
+    }
+
+    section img {
+        margin-left: 0px;
+    }
+
 }
